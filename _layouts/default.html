@@ -88,8 +88,10 @@ layout: compress
       console.log("custom script running…");
       const isLocal = window.location.hostname === "127.0.0.1" || window.location.hostname === "localhost";
       const isRoot = window.location.pathname === "/" || window.location.pathname === "/ruixuepitt.github.io/";
+      const REDIRECT_KEY = "home_redirect_done";
 
-      if (isRoot) {
+      if (isRoot && !localStorage.getItem(REDIRECT_KEY)) {
+        localStorage.setItem(REDIRECT_KEY, "1");
         const target = (isLocal ? "" : "{{ site.url }}") + "/about/";
         window.location.replace(target);
       }
