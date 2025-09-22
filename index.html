@@ -2,3 +2,8 @@
 layout: home
 # Index page
 ---
+<script>
+  if (window.location.pathname === "{{ site.baseurl }}/") {
+    window.location.href = "{{ site.baseurl }}/about/";
+  }
+</script>
