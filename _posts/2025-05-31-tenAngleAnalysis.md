@@ -1,6 +1,5 @@
 ---
 title: Repository of Ten Angle Analysis
-date: 2025-05-31 11:33:00 +0800
 math: true
 permalink: /Ten Angle Analysis/
 ---

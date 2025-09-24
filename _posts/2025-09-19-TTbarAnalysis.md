@@ -1,6 +1,7 @@
 ---
-title: Analysis of Top Quark Pair Decaying Process
+title: Analysis of Top Quark Pair Decay
 math: true
+permalink: /Analysis Project/
 ---
 
 ## Overview
@@ -24,7 +25,7 @@ In order to study the beyond standard model behaviors and perform hypothesis tes
 
 - **Generation**: Theory-driven simulation of parton-level events via cross-section calculations. The resulting partons (quarks, gluons) then go through the parton showering and hadronisation process, forming hadronic states due to the QCD radiation. The tools frequently used are *MadGraph*, *Powheg*, *Sherpa* and *Pythia*.
 
-- **Detector Simulation**: Interacts the generated particles with the virtual detector model, using full (*GEANT4*) or fast (*AtlFast*) simulations. Produces the detector cell energy deposits stored in the HITS files. Our group is concentrating on the development of *GeoModel*, a visualization toolkit for detector simulation.
+- **Detector Simulation**: Interacts the generated particles with the virtual detector model, using full (*GEANT4*) or fast (*AtlFast*) simulations. Produces the detector cell energy deposits stored in the HITS files. Our group is concentrating on the development of [**GeoModel**](/GeoModel/), a visualization toolkit for detector simulation.
 
 
 ![Detector Level Simulation](/assets/img/PostImages/DetectSimu.png){: w="400" h="400" }
@@ -35,8 +36,8 @@ _Detector Level Simulation with GeoModel Toolkit_
 - **Derivation**: Keep the data only relavent to the specific analysis, throwing low-quality events, low-level detector simulation information, etc. Results are stored in DAOD files used for physics analysis.
 
 In the early stage of this project, we conducted generator-level tests using *MadGraph*. The study shows that $$t\bar{t}$$ system is unpolarized while the spins are highly correlated, which proves that our simulation settings are correct.
-![Generator Level Study](/assets/img/PostImages/SMEFTworking.png){: w="400" h="400" }
-_Generator Level Study_
+![Generator Level Study](/assets/img/PostImages/MadGraph.png){: w="300" h="300" }
+_Generator Level Study with MadGraph_
 
 ## Event Skimming
 The [TopCPToolkit](https://topcptoolkit.docs.cern.ch/latest/) is used for **event skimming** -- only events passed selection barriers are kept, while discarding those with low quality particles (e.g., low $$p_T$$ objects), or failing flavor tagging algorithms. This procedure dramatically reduces the data from **hundreds of terabytes** to only **hundreds of gigabytes**. Since the DAOD files generated from the Monte Carlo simulation workflow are distributed across worldwide computing clusters, the skimming jobs are executed on the clusters and their progress can be monitored through [PanDA](https://panda-wms.readthedocs.io/en/latest/index.html#).

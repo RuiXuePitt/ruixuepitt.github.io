@@ -103,15 +103,10 @@ Then the automated data processing flow will begin.
 ![Data Process Workflow](/assets/img/PostImages/DataWorkFlow.png){: w="500" h="500" }
 _Data Process Workflow_
 
-The Google Sheet recordings will be updated accordingly, as demonstrated in the following video.
+The Google Sheet recordings will be updated accordingly, as demonstrated below.
 
-<iframe src="https://drive.google.com/file/d/1jcON38KlBkBova-BRiKPzOfhq1cA_960/preview"
-        width="640" height="480"
-        allow="autoplay"
-        allowfullscreen>
-</iframe>
-
-### Plot Results
+![Google Sheet Update](/assets/img/PostImages/datafetch_demo.gif){: w="500" h="500" }
+_Automated Google Sheet Update_
 
 To generate the signal control plots, first ensure that the configuration files and environment are set up as described in the previous sections. Then specify the physics observables to be plotted in the script ( for example, $$cos(\theta^+)$$ )
 ```
