@@ -36,6 +36,7 @@ _Detector Level Simulation with GeoModel Toolkit_
 - **Derivation**: Keep the data only relavent to the specific analysis, throwing low-quality events, low-level detector simulation information, etc. Results are stored in DAOD files used for physics analysis.
 
 In the early stage of this project, we conducted generator-level tests using *MadGraph*. The study shows that $$t\bar{t}$$ system is unpolarized while the spins are highly correlated, which proves that our simulation settings are correct.
+
 ![Generator Level Study](/assets/img/PostImages/MadGraph.png){: w="300" h="300" }
 _Generator Level Study with MadGraph_
 
