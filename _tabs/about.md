@@ -91,22 +91,22 @@ Beyond being a physics researcher, I'm also
 <div id="photoCarousel" class="carousel slide" data-bs-ride="carousel" style="max-width:700px; margin:auto;">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="/assets/img/Photography/Scottland.webp" class="d-block w-100" alt="Scottland" loading="lazy">
+      <img src="/assets/img/Photography/Scottland.webp" class="d-block w-100" alt="Scottland" loading="lazy" decoding="async">
     </div>
     <div class="carousel-item">
-      <img src="/assets/img/Photography/Castle.webp" class="d-block w-100" alt="Castle" loading="lazy">
+      <img src="/assets/img/Photography/Castle.webp" class="d-block w-100" alt="Castle" loading="lazy" decoding="async">
     </div>
     <div class="carousel-item">
-      <img src="/assets/img/Photography/Florance.webp" class="d-block w-100" alt="Florance" loading="lazy">
+      <img src="/assets/img/Photography/Florance.webp" class="d-block w-100" alt="Florance" loading="lazy" decoding="async">
     </div>
     <div class="carousel-item">
-      <img src="/assets/img/Photography/Paris.webp" class="d-block w-100" alt="Paris" loading="lazy">
+      <img src="/assets/img/Photography/Paris.webp" class="d-block w-100" alt="Paris" loading="lazy" decoding="async">
     </div>
     <div class="carousel-item">
-      <img src="/assets/img/Photography/Chamonix.webp" class="d-block w-100" alt="Chamonix" loading="lazy">
+      <img src="/assets/img/Photography/Chamonix.webp" class="d-block w-100" alt="Chamonix" loading="lazy" decoding="async">
     </div>
     <div class="carousel-item">
-      <img src="/assets/img/Photography/HongKong.webp" class="d-block w-100" alt="Hongkong" loading="lazy">
+      <img src="/assets/img/Photography/Hongkong.webp" class="d-block w-100" alt="Hongkong" loading="lazy" decoding="async">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#photoCarousel" data-bs-slide="prev">
