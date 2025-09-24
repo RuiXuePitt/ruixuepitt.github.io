@@ -88,7 +88,7 @@ Beyond being a physics researcher, I'm also
 - 🛫 a flight simulator player with a full set of simulator hardwares
 - 🤘 a rock music lover attended lives by *Rammstein*, *Iron Maiden*, and *the Hu*.
 
-<div id="photoCarousel" class="carousel slide" data-bs-ride="carousel">
+<div id="photoCarousel" class="carousel slide" data-bs-ride="carousel" style="max-width:700px; margin:auto;">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="/assets/img/Photography/Scottland.jpeg" class="d-block w-100" alt="Photo 1">
